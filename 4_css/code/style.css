@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: #3498db;
+    width: 400px;
+}
+
+.wrapper .item:first-child {
+    background-color: #2ecc71;
+}
+
+.wrapper .item:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+.wrapper .item:nth-child(3) {
+    background-color: #f39c12;
+}
+
+.wrapper .item:last-child {
+    background-color: #16a085;
+}
+

@@ -1,0 +1,39 @@
+.wrapper {
+    background-color: #3498db;
+    position: relative;
+}
+
+.wrapper .item:first-child {
+    background-color: #2ecc71;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.wrapper .item:nth-child(2) {
+    background-color: #e74c3c;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.wrapper .item:nth-child(3) {
+    background-color: #f39c12;
+    position: fixed;
+    left: 85px;
+    top: 25px;
+}
+.wrapper .item:nth-child(4) {
+    background-color: #8e44ad;
+    position: sticky;
+    top: 0;
+}
+
+.wrapper .item:nth-child(5) {
+    background-color: #34495e;
+}
+
+.wrapper .item:last-child {
+    background-color: #16a085;
+}
+
