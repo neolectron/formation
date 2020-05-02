@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body, #app {
+    margin: 0;
+    height: 100%;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 100px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+    background-color: #000;
+    color: #fff;
+}
+
+header .brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+header .brand .brand-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    background-image: url("http://placekitten.com/60/60");
+}
+
+header nav {
+    font-size: 14px;
+    display: flex;
+}
+
+nav .nav-item {
+    padding: 10px;
+}
+
+.nav-item.nav-icon {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-image: url("http://placekitten.com/30/30");
+    background-repeat: no-repeat;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #7f8c8d;
+    padding: 30px;
+}
+
+main .schedule {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 70px 30px;
+
+    font-size: 32px;
+    color: #fff;
+    background-image: url("https://placehold.it/1000x500");
+    background-size: cover;
+}
+
+main .events {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.events .event {
+    background-color: #fff;
+    width: 200px;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.events .event:first-child {
+    margin-left: 0;
+}
+
+.event .event-img {
+    height: 200px;
+    background-image: url("https://placehold.it/200x200");
+    background-size: cover;
+}
+
+.event .event-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.smalltext {
+    font-size: 13px;
+}
+
+.event .event-name {
+    font-size: 22px;
+    padding: 5px 0;
+}
+
+.event .event-desc {
+    padding: 10px 0;
+}
+
+.event .button {
+    background-color: green;
+}
