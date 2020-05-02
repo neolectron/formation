@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ph_logo {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+
+    padding: 5px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.ph_logo > span:last-child {
+    background-color: #e67e22;
+    color: #000;
+
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 2px;
+}
