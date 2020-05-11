@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "title": "fly il est fou",
+      "article": "voici la preuve que fly est fou : il heberge les serveur dans son garage",
+      "author": "neolectron",
+      "id": 6
+    },
+    {
+      "title": "#mavie",
+      "author": "isuniel",
+      "article": "vas y ça me stress quand les gens ils sont pas subs dans le chat, du coup je fais que filer des abos aux gens",
+      "id": 9
+    },
+    {
+      "title": "webpack",
+      "author": "yaourt",
+      "article": "chui partisan des trucs simples",
+      "id": 10
+    },
+    {
+      "title": "ma vie de frustré",
+      "article": "mais jme suis deter a faire une formation c'est cool quand meme",
+      "author": "neolectron",
+      "id": 11
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "manu"
+  }
+}
