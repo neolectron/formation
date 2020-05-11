@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+
+html, body, .app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+address {
+    font-size: 15px;
+}
+
+.app {
+    padding: 30px;
+}
+
+article {
+    border: 1px dashed black;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+#composer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#composer input[name=author] {
+    width: 200px;
+    align-self: flex-end;
+}
+
+textarea {
+    flex-grow: 1;
+    font-size: 34px;
+}
+
+button {
+    height: 50px;
+}

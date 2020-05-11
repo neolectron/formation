@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="write.js" async></script>
+</head>
+<body>
+    <a href="index.html">Accueil</a>
+    <h1>Écris ton article bordel</h1>
+    <form id="composer">
+        <input required type="text" name="author" placeholder="ton nom ici" />
+        <input required type="text" name="title" placeholder="titre de ton article" />
+        <textarea required name="content" cols="80" rows="15" autofocus form="composer"></textarea>
+        <input type="file" name="image" accept="image/*" />
+        <button type="submit">Envoie ton article !</button>
+    </form>
+</body>
+</html>
