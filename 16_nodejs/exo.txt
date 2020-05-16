@@ -1,0 +1,14 @@
+- Faire un serveur node js, en utilisant le module express.
+- Avoir un dossier Public avec un petit site dedans
+
+1) Le site devra faire un fetch sur l'url de votre choix
+ 2) cette url devra renvoyer un bout de texte aleatoire
+  3) Le site affichera ce texte dans un <h1>
+
+Pour rendre le code, faire un zip sans le dossier node_modules dedans
+A la notation je veux juste faire un :
+
+`npm install`
+`npm start`
+
+et là ça doit marcher.
