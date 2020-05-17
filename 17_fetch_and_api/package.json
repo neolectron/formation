@@ -1,0 +1,15 @@
+{
+  "name": "random-text-api",
+  "version": "1.0.0",
+  "description": "a random text generator api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neolectron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
