@@ -1,0 +1,18 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "the not very best todo app",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "npx nodemon --ignore src/db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neolectron",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
