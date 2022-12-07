@@ -11,7 +11,7 @@
   "author": "neolectron",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "morgan": "^1.10.0"
   }
 }
